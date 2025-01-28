@@ -6,30 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C96C2C7C2D49615000F40474 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C96C2C7B2D49615000F40474 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C96C2C3D2D4960CC00F40474 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96C2C552D4960FF00F40474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96C2C562D4960FF00F40474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C96C2C572D4960FF00F40474 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96C2C592D4960FF00F40474 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		C96C2C5A2D4960FF00F40474 /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		C96C2C5B2D4960FF00F40474 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		C96C2C5C2D4960FF00F40474 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C96C2C5D2D4960FF00F40474 /* QuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteData.swift; sourceTree = "<group>"; };
+		C96C2C5F2D4960FF00F40474 /* SelectionUIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionUIFunctions.swift; sourceTree = "<group>"; };
+		C96C2C602D4960FF00F40474 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
+		C96C2C612D4960FF00F40474 /* CategoryScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryScrollView.swift; sourceTree = "<group>"; };
+		C96C2C622D4960FF00F40474 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		C96C2C632D4960FF00F40474 /* QuotesUIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUIFunctions.swift; sourceTree = "<group>"; };
+		C96C2C642D4960FF00F40474 /* MainPageUIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageUIFunctions.swift; sourceTree = "<group>"; };
+		C96C2C662D4960FF00F40474 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C96C2C672D4960FF00F40474 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		C96C2C682D4960FF00F40474 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		C96C2C6A2D4960FF00F40474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96C2C6B2D4960FF00F40474 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96C2C6D2D4960FF00F40474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96C2C6F2D49610B00F40474 /* QuoteResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuoteResponse.json; sourceTree = "<group>"; };
+		C96C2C702D49610B00F40474 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		C96C2C722D49610B00F40474 /* MockQuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuoteManager.swift; sourceTree = "<group>"; };
+		C96C2C742D49610B00F40474 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		C96C2C762D49610D00F40474 /* QuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C96C2C772D49610D00F40474 /* MainPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageUITests.swift; sourceTree = "<group>"; };
+		C96C2C782D49610D00F40474 /* QuotesPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesPageUITests.swift; sourceTree = "<group>"; };
+		C96C2C792D49610D00F40474 /* SelectionPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPageUITests.swift; sourceTree = "<group>"; };
+		C96C2C7B2D49615000F40474 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C96C2C4F2D4960CF00F40474 /* Exceptions for "Quotes" folder in "Quotes" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C96C2C3C2D4960CC00F40474 /* Quotes */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C96C2C3F2D4960CC00F40474 /* Quotes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C96C2C4F2D4960CF00F40474 /* Exceptions for "Quotes" folder in "Quotes" target */,
-			);
-			path = Quotes;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C96C2C3A2D4960CC00F40474 /* Frameworks */ = {
@@ -45,7 +57,10 @@
 		C96C2C342D4960CC00F40474 = {
 			isa = PBXGroup;
 			children = (
-				C96C2C3F2D4960CC00F40474 /* Quotes */,
+				C96C2C7B2D49615000F40474 /* .gitignore */,
+				C96C2C6E2D4960FF00F40474 /* Quotes */,
+				C96C2C752D49610B00F40474 /* QuotesTests */,
+				C96C2C7A2D49610D00F40474 /* QuotesUITests */,
 				C96C2C3E2D4960CC00F40474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +71,95 @@
 				C96C2C3D2D4960CC00F40474 /* Quotes.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C96C2C5E2D4960FF00F40474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C592D4960FF00F40474 /* GlobalVariables.swift */,
+				C96C2C5A2D4960FF00F40474 /* QuoteManager.swift */,
+				C96C2C5B2D4960FF00F40474 /* QuoteModel.swift */,
+				C96C2C5C2D4960FF00F40474 /* NetworkError.swift */,
+				C96C2C5D2D4960FF00F40474 /* QuoteData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C96C2C652D4960FF00F40474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C5F2D4960FF00F40474 /* SelectionUIFunctions.swift */,
+				C96C2C602D4960FF00F40474 /* UIFunctions.swift */,
+				C96C2C612D4960FF00F40474 /* CategoryScrollView.swift */,
+				C96C2C622D4960FF00F40474 /* QuoteView.swift */,
+				C96C2C632D4960FF00F40474 /* QuotesUIFunctions.swift */,
+				C96C2C642D4960FF00F40474 /* MainPageUIFunctions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C96C2C692D4960FF00F40474 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C662D4960FF00F40474 /* MainViewController.swift */,
+				C96C2C672D4960FF00F40474 /* QuotesViewController.swift */,
+				C96C2C682D4960FF00F40474 /* SelectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C96C2C6E2D4960FF00F40474 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C552D4960FF00F40474 /* AppDelegate.swift */,
+				C96C2C562D4960FF00F40474 /* SceneDelegate.swift */,
+				C96C2C582D4960FF00F40474 /* Main.storyboard */,
+				C96C2C5E2D4960FF00F40474 /* Model */,
+				C96C2C652D4960FF00F40474 /* View */,
+				C96C2C692D4960FF00F40474 /* Controller */,
+				C96C2C6A2D4960FF00F40474 /* Assets.xcassets */,
+				C96C2C6C2D4960FF00F40474 /* LaunchScreen.storyboard */,
+				C96C2C6D2D4960FF00F40474 /* Info.plist */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		C96C2C712D49610B00F40474 /* MockHelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C6F2D49610B00F40474 /* QuoteResponse.json */,
+				C96C2C702D49610B00F40474 /* Mockable.swift */,
+			);
+			path = MockHelperFiles;
+			sourceTree = "<group>";
+		};
+		C96C2C732D49610B00F40474 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C722D49610B00F40474 /* MockQuoteManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C96C2C752D49610B00F40474 /* QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C712D49610B00F40474 /* MockHelperFiles */,
+				C96C2C732D49610B00F40474 /* Mocks */,
+				C96C2C742D49610B00F40474 /* NetworkTests.swift */,
+			);
+			path = QuotesTests;
+			sourceTree = "<group>";
+		};
+		C96C2C7A2D49610D00F40474 /* QuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2C762D49610D00F40474 /* QuotesUITestsLaunchTests.swift */,
+				C96C2C772D49610D00F40474 /* MainPageUITests.swift */,
+				C96C2C782D49610D00F40474 /* QuotesPageUITests.swift */,
+				C96C2C792D49610D00F40474 /* SelectionPageUITests.swift */,
+			);
+			path = QuotesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C96C2C3F2D4960CC00F40474 /* Quotes */,
 			);
 			name = Quotes;
 			packageProductDependencies = (
@@ -122,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2C7C2D49615000F40474 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +238,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96C2C582D4960FF00F40474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2C572D4960FF00F40474 /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96C2C6C2D4960FF00F40474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2C6B2D4960FF00F40474 /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C96C2C512D4960CF00F40474 /* Debug */ = {
